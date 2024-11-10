@@ -1,0 +1,97 @@
+ody {
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav {
+    width: 95vw;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding: 2%;
+}
+
+.main-link a {
+  color: black;
+  font-weight: bold;
+  font-size: 40px;
+}
+.nav-links {
+    width: 80vw;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.nav-links a{
+    text-align: center;
+    font-size: 2rem;
+    margin-left: 8%;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+.section-1 img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;         
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 3px solid white;    
+    transition: transform 0.3s; 
+}
+
+
+.section-1 img:hover {
+    transform: scale(1.05);     
+}
+
+.section-1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sub-1 {
+    width: 30%;
+    font-size: 20px;
+
+}
+.sub-1 p {
+    font-weight: normal; 
+    line-height: 1.5;
+}
+
+.sub-1 strong {
+    font-weight: bold;
+}
+
+.sub-2 {
+    width: 30%;
+    font-size: 20px;
+}
+.sub-2 p{
+    font-weight: bold;
+}
+
+.sub-3 {
+    width: 70%;
+    padding-left: 120px;
+}
+.sub-3 h2{
+    font-weight: bold;
+}
+.sub-3 p{
+    font-family: 'Krub', sans-serif;
+}
+.sub-4{
+    width: 30%;
+    padding-left:900px;
+    font-family: 'Krub', sans-serif;
+    margin-top: -150px;
+}
